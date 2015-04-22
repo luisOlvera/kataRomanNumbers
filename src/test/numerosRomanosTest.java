@@ -10,7 +10,13 @@ public class numerosRomanosTest {
     @org.junit.Test
     public void Decimal_1_result_I() throws Exception {
         numerosRomanos numRomano = new numerosRomanos();
-        numRomano.obtenDecimalEnRomano(1);
         Assert.assertEquals("I", numRomano.obtenDecimalEnRomano(1));
     }
+
+    @org.junit.Test
+    public void Decimal_2_result_II() throws Exception {
+        numerosRomanos numRomano = new numerosRomanos();
+        Assert.assertEquals("II", numRomano.obtenDecimalEnRomano(2));
+    }
+
 }
