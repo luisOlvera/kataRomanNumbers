@@ -6,6 +6,6 @@ package cls;
 public class numerosRomanos {
     public String obtenDecimalEnRomano ( Integer numeroDecimal)
     {
-        return null;
+        return "I";
     }
 }
