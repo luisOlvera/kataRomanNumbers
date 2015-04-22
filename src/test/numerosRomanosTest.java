@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class numerosRomanosTest {
 
     @org.junit.Test
-    public void testObtenDecimalEnRomano() throws Exception {
+    public void Decimal_1_result_null() throws Exception {
         numerosRomanos numRomano = new numerosRomanos();
         numRomano.obtenDecimalEnRomano(1);
         Assert.assertEquals(null, numRomano.obtenDecimalEnRomano(1));
