@@ -5,7 +5,12 @@ package cls;
  */
 public class numerosRomanos {
     public String obtenDecimalEnRomano ( Integer numeroDecimal)
-    {
-        return "I";
+    {    String cadenaRomana="";
+        while (numeroDecimal>0)
+        {
+            numeroDecimal = numeroDecimal-1;
+            cadenaRomana+="I"  ;
+        }
+        return cadenaRomana;
     }
 }
